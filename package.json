@@ -1,19 +1,19 @@
 {
-  "name": "homebridge-plugin-name",
-  "displayName": "Plugin Name",
+  "name": "homebridge-gree-g10",
+  "displayName": "Gree G10 Homebridge Plugin",
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "description": "A short description about what your plugin does.",
-  "author": "Your Name",
+  "description": "Control Gree G10 by talking via MQTT with a custom receiver (ESP + IR transmitter).",
+  "author": "Adrian Dobre",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/USERNAME/GITHUB_PROJECT_NAME#readme",
+  "homepage": "https://github.com/adrian-dobre/gree-g10-ac#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/adrian-dobre/GITHUB_PROgree-g10-acJECT_NAME.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/adrian-dobre/gree-g10-ac/issues"
   },
   "keywords": [
     "homebridge-plugin"
@@ -30,10 +30,13 @@
     "watch": "npm run build && npm link && nodemon"
   },
   "dependencies": {
-    "homebridge-lib": "^7.1.4"
+    "homebridge-lib": "^7.1.4",
+    "lodash": "^4.17.21",
+    "mqtt": "^5.10.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@types/lodash": "^4.17.16",
     "@types/node": "^22.13.5",
     "eslint": "^9.21.0",
     "homebridge": "^2.0.0-beta.0",

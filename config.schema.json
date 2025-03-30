@@ -1,16 +1,31 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "GreeG10HomebridgePlatformPlugin",
   "pluginType": "platform",
   "singular": true,
   "strictValidation": false,
   "schema": {
     "type": "object",
     "properties": {
-      "name": {
-        "title": "Name",
+      "mqttAddress": {
+        "title": "MQTT Address",
         "type": "string",
-        "required": true,
-        "default": "Example Dynamic Platform"
+        "required": true
+      },
+      "mqttPort": {
+        "title": "MQTT Port",
+        "type": "number",
+        "required": false,
+        "default": 1883
+      },
+      "mqttUsername": {
+        "title": "MQTT Username",
+        "type": "string",
+        "required": false
+      },
+      "mqttPassword": {
+        "title": "MQTT Password",
+        "type": "string",
+        "required": false
       }
     }
   }
