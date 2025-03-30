@@ -7,13 +7,13 @@
   "description": "Control Gree G10 by talking via MQTT with a custom receiver (ESP + IR transmitter).",
   "author": "Adrian Dobre",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/adrian-dobre/gree-g10-ac#readme",
+  "homepage": "https://github.com/adrian-dobre/homebridge-plugin-gree-g10#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adrian-dobre/GITHUB_PROgree-g10-acJECT_NAME.git"
+    "url": "https://github.com/adrian-dobre/homebridge-plugin-gree-g10.git"
   },
   "bugs": {
-    "url": "https://github.com/adrian-dobre/gree-g10-ac/issues"
+    "url": "https://github.com/adrian-dobre/homebridge-plugin-gree-g10/issues"
   },
   "keywords": [
     "homebridge-plugin"
